@@ -1,0 +1,7 @@
+---
+services:
+  app:
+    image: elixir:1.11-alpine
+    working_dir: /opt/elixir
+    volumes:
+      - .:/opt/elixir
